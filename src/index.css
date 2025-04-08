@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Gotu';
+  src: url('./assets/fonts/Gotu-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Gotu', sans-serif;
+}
+
+/* 
+body {
+  background: linear-gradient(135deg, rgba(244, 225, 210, 0.7), rgba(230, 207, 199, 0.7)),
+              linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(200, 200, 200, 0.5)),
+              linear-gradient(0deg, rgba(240, 220, 190, 0.1), rgba(250, 240, 220, 0.1));
+  background-size: 100% 100%, 100% 100%, 100% 100%;
+  background-blend-mode: overlay;
+  height: 100vh;
+} */
+
+body{
+  background-color: hsl(35, 55%, 94%);
+  /* background-color: #ece5db; */
+  color: #60574e;
+}

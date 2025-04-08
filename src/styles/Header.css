@@ -1,0 +1,37 @@
+.header{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.logo-container .logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.line{
+    /* width: 80%; */
+    height: 1px;
+    margin: .5rem auto;
+    background-color: #60574e;
+}
+
+.navbar{
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 1rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: color 0.6s ease;
+}
+
+
+
+
+
+
+
+
