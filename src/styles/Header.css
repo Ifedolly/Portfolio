@@ -1,37 +1,45 @@
-.header{
-    text-align: center;
-    padding: 2rem 0;
+.header {
+  text-align: center;
 }
 
-.logo-container .logo{
-    font-size: 2rem;
+.logo-container {
+  padding: 0.5rem 0; 
+}
+
+.logo-container .logo {
     font-weight: bold;
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 0;  
 }
 
-.line{
-    /* width: 80%; */
-    height: 1px;
-    margin: .5rem auto;
-    background-color: #60574e;
+.subtext {
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 0;        
+    margin-bottom: 0;     
+    line-height: 1;       
 }
 
-.navbar{
-    display: inline-flex;
-    gap: 2rem;
-    justify-content: center;
+.line {
+  height: 1px;
+  margin: 0.3rem auto; 
+  background-color: #60574e;
 }
 
-.nav-link{
-    font-size: 1rem;
-    position: relative;
+.navbar {
+  display: inline-flex;
+  gap: 1.2rem; 
+  justify-content: center;
+}
+
+.nav-link {
+    font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    position: relative;
     transition: color 0.6s ease;
 }
-
-
-
-
-
-
-
-

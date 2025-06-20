@@ -1,12 +1,14 @@
-import React from 'react'
-import '../styles/Hero.css'
+import React from 'react';
+import "../styles/Hero.css";
 
 const Hero = () => {
   return (
-    <section className='Hero'>
-      
+    <section className="hero">
+      <div className="hero-container">
+        
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
