@@ -6,7 +6,11 @@
 }
 @font-face {
   font-family: 'Lato';
-  src: url('./assets/fonts/Lato-Regular.ttf')
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('./assets/fonts/GreatVibes-Regular.ttf');
 }
 
 * {
