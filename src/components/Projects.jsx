@@ -1,19 +1,31 @@
-import React from 'react'
-import '../styles/Projects.css'
-
-const projects = [
-  { id: 1, name: "Bianca Beauty", img: "/images/bb1.png", link: "/project1" },
-  { id: 2, name: "Kojo Wellness", img: "/images/t4.jpg", link: "/project2" },
-  { id: 3, name: "Crumbl", img: "/images/tt.jpg", link: "/project3" },
-  { id: 4, name: "Sky Homes", img: "/images/tt1.png", link: "/project4" },
-];
+import React from "react";
+import { NavLink } from "react-router-dom";
+import projects from "../projectsData";
+import "../styles/Projects.css";
 
 const Projects = () => {
   return (
-    <section className='projects'>
-     
-    </section>
-  )
-}
+    <section className="projects" id="projects">
+      <h2 className="projects-title">View My Work</h2>
 
-export default Projects
+      <div className="projects-grid">
+        {projects.map(({ id, name, image, description, detailsLink }) => (
+          <NavLink to={detailsLink} key={id} className="project-card">
+            <div className="project-image-container">
+              <img src={image} alt={name} className="project-image" />
+            </div>
+            <div className="project-info">
+              <h3>{name}</h3>
+              <div className="project-desc-row">
+                <p className="project-desc">{description}</p>
+                <span className="arrow">→</span>
+              </div>
+            </div>
+          </NavLink>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

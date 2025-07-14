@@ -1,0 +1,36 @@
+.skills-marquee {
+  background-color: hsl(35, 31%, 89%);
+  padding: 1rem 0;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.track {
+  display: inline-block;
+  animation: scroll-left 20s linear infinite;
+}
+
+.track span {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 100%;
+  display: inline-block;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

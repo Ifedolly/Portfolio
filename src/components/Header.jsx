@@ -10,7 +10,7 @@ const Header = () => {
         <NavLink to="/" className="logo">
           PORTFOLIO
         </NavLink>
-        <p className="subtext">FRONT-END DEVELOPMENT</p>
+        <p className="subtext">SOFTWARE ENGINEERING</p>
       </div>
 
       {/* Top Line */}

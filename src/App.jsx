@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import About from './components/About';
+import SkillsMarquee from './components/SkillsMarquee';
 import Contact from './components/Contact';
 import ProjectDetails from './pages/ProjectDetails';
 
@@ -19,6 +20,7 @@ const App = () => {
               <Hero />
               <Projects />
               <About />
+              <SkillsMarquee />
               <Contact />
             </>
           }
