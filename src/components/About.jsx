@@ -6,16 +6,17 @@ const About = () => {
     <section className='about' id='about'>
       <div className='about-container'>
         <div className="about-text">
-          <h2>About Me</h2>
+          <h2>My Approach</h2>
             <p>
-              My first lines of code barely worked—but they were mine.
-              And with every broken layout and late-night bug fix, I got better.
+              I learn by doing — trying, breaking, fixing, and improving. 
+              <br />
+              Every coding decision I make is intentional, leading an iterative path to better code.
               <br />
               Since starting this year,
               I’ve completed 3 projects from scratch
               and spent countless hours sharpening my skills.
-              <br />
-              It’s been messy, humbling, and absolutely worth it.
+              {/* <br /> */}
+              {/* It’s been messy, humbling, and absolutely worth it. */}
               <br />
               Now, I create sleek, responsive apps that feel smooth and human.
               <br />
@@ -25,7 +26,7 @@ const About = () => {
               and brings it to life with clarity and creativity.
             </p>
           <a
-            href="/ifedolapo-olawale-resume.pdf"
+            href="/ifedolapo-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="about-cta"

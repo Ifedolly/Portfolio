@@ -4,31 +4,35 @@
   overflow: hidden;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .marquee {
-  position: relative;
   width: 100%;
   overflow: hidden;
-  white-space: nowrap;
+  position: relative;
 }
 
 .track {
-  display: inline-block;
-  animation: scroll-left 20s linear infinite;
+  display: flex;
+  width: max-content;
+  animation: scroll-left 15s linear infinite;
 }
 
 .track span {
+  white-space: nowrap;
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 2px;
-  padding-left: 100%;
-  display: inline-block;
+  padding-right: 4rem;
 }
 
+/* Continuous scroll */
 @keyframes scroll-left {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);

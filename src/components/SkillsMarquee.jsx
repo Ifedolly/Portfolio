@@ -8,6 +8,8 @@ const SkillsMarquee = () => {
         <div className="track">
           <span>
             HTML • CSS • JavaScript • React • Tailwind CSS • Git • Figma • Responsive Design • Accessibility • VS Code •
+          </span>
+          <span>
             HTML • CSS • JavaScript • React • Tailwind CSS • Git • Figma • Responsive Design • Accessibility • VS Code •
           </span>
         </div>
