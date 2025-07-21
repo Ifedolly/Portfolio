@@ -1,12 +1,13 @@
 .skills-marquee {
-  background-color: hsl(35, 31%, 89%);
-  padding: 1rem 0;
+  /* background-color: hsl(35, 31%, 89%); */
+  /* background-color: hsl(20, 7%, 9%); */
+  /* background-color: hsl(45, 8%, 71%); */
+  padding: .5rem 0;
   overflow: hidden;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* color: white; */
+  /* color: antiquewhite; */
+  /* border-top: 1px solid #ccc; */
+  /* border-bottom: 1px solid #ccc; */
 }
 
 .marquee {
@@ -17,22 +18,23 @@
 
 .track {
   display: flex;
-  width: max-content;
-  animation: scroll-left 15s linear infinite;
+  width: fit-content;
+  animation: scroll-left 20s linear infinite;
 }
 
-.track span {
+.skill-item {
   white-space: nowrap;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: .8rem;
+  font-weight: 700;
   letter-spacing: 2px;
-  padding-right: 4rem;
+  padding: 0 2rem;
+  text-transform: uppercase;
 }
 
-/* Continuous scroll */
+/* Seamless scroll */
 @keyframes scroll-left {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);

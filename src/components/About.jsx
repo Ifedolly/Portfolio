@@ -10,7 +10,7 @@ const About = () => {
             <p>
               I learn by doing — trying, breaking, fixing, and improving. 
               <br />
-              Every coding decision I make is intentional, leading an iterative path to better code.
+              Every coding decision I make is intentional, leading an iterative path to better solutions.
               <br />
               Since starting this year,
               I’ve completed 3 projects from scratch
