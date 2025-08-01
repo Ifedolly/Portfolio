@@ -1,6 +1,25 @@
 .header {
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 7rem;
+  background-color: hsl(60, 38%, 94%);
+  transition: transform 0.3s ease-in-out;
 }
+
+/* When header is visible */
+.header-show {
+  transform: translateY(0);
+}
+
+/* When header is hidden */
+.header-hide {
+  transform: translateY(-100%);
+}
+
 
 .logo-container {
   padding: 0.5rem 0; 
@@ -26,7 +45,7 @@
 .line {
   height: 1px;
   margin: 0.3rem auto; 
-  background-color: #60574e;
+  background-color: #494541;
 }
 
 .navbar {

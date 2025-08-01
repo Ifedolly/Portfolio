@@ -1,0 +1,157 @@
+.project-details {
+  padding: 5rem 1.5rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.project-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .project-header {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-title {
+  font-size: 2rem;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+}
+
+.project-one-liner {
+  color: #4b5563;
+  margin-top: 0.5rem;
+  font-size: .75rem;
+  letter-spacing: 2px;
+  line-height: 1px;
+}
+
+.project-intro {
+  font-size: .9rem;
+  color: #1f2937;
+}
+
+.project-images {
+  margin-top: 10rem;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.secondary-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 640px) {
+  .secondary-images {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.secondary-image {
+  width: 100%;
+}
+
+.project-content {
+  margin-top: 9rem;
+}
+
+.project-section {
+  margin-bottom: 8rem;
+}
+
+.project-section h2 {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  color: #3d3c3c;
+}
+
+.project-section p {
+  /* color: #374151; */
+  text-align: center;
+  line-height: 1.6;
+  max-width: 600px;    
+  margin: 0 auto;
+}
+
+.project-section ul {
+  /* padding-left: 1.25rem; */
+  color: #444;
+  line-height: 1.6;
+  text-align: center;
+
+}
+
+.device-views {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+.project-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 0.3rem;
+  /* gap: 2rem; */
+}
+
+.project-link:hover{
+  color: #585552;
+}
+
+.project-link a {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  /* margin-bottom: 1.5rem; */
+  letter-spacing: 2px;
+  font-weight: 600;
+  /* color: #3d3c3c; */
+}
+
+.arrow{
+  /* font-size: 1.1rem; */
+  transition: transform 0.3s ease;
+  user-select: none;
+  transform: translateY(-1.5px);
+}
+
+@media (min-width: 640px) {
+  .device-views {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.device-image {
+  width: 100%;
+}
+
+.project-link {
+  margin-top: 2rem;
+}
+
+/* .project-link a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: 500;
+} */
+
+.project-not-found {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.25rem;
+}

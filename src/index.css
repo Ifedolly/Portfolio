@@ -23,6 +23,7 @@ body{
   background-color: hsl(60, 38%, 94%);
   /* background-color: #ece5db; */
   color: #252422;
+  padding-top: 7rem;
 }
 
 /* Scrollbar Track */
@@ -45,7 +46,3 @@ body{
   background-clip: content-box;
 }
 
-/* Hover effect on thumb */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #8d7b6b;
-}

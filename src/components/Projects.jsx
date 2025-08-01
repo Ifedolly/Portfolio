@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import projects from "../projectsData";
+import projects from "../data/projectsData";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -9,8 +9,8 @@ const Projects = () => {
       <h2 className="projects-title">View My Work</h2>
 
       <div className="projects-grid">
-        {projects.map(({ id, name, image, description, detailsLink }) => (
-          <NavLink to={detailsLink} key={id} className="project-card">
+        {projects.map(({ id, name, image, description, slug }) => (
+          <NavLink to={`/projects/${slug}`} key={id} className="project-card">
             <div className="project-image-container">
               <img src={image} alt={name} className="project-image" />
             </div>
@@ -23,6 +23,7 @@ const Projects = () => {
             </div>
           </NavLink>
         ))}
+
       </div>
     </section>
   );

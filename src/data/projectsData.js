@@ -4,21 +4,24 @@ const projects = [
     name: "Bianca Beauty",
     description: "E-COMMERCE, WEB APPLICATION.",
     image: "/images/projects-images/bianca-beauty-long.png",
-    detailsLink: "/projects/bianca-beauty",
+    slug: "bianca-beauty",
+    // detailsLink: "/projects/bianca-beauty",
   },
   {
     id: 2,
     name: "QuickGig",
     description: "JOB LISTING, WEB APPLICATION.",
     image: "/images/projects-images/quickgig-long.png",
-    detailsLink: "/projects/last-minute-hire",
+    slug: "quickgig",
+    // detailsLink: "/projects/quickgig",
   },
   {
     id: 3,
     name: "Fashion Motors",
     description: "VEHICLE ENHANCEMENT, WEB APPLICATION.",
     image: "/images/projects-images/bianca-beauty-long.png",
-    detailsLink: "/projects/quickgig",
+    slug: "fashion-motors",
+    // detailsLink: "/projects/fashion-motors",
   },
 ];
 

@@ -1,8 +1,9 @@
 .contact {
   padding: 3rem 2rem 2rem;
-  background-color: hsl(35, 35%, 89%);
+  /* background-color: hsl(35, 35%, 89%); */
   /* background-color: hsl(0, 88%, 10%); */
-  background-color: hsl(45, 21%, 85%);
+  background-color: hsla(47, 18%, 75%, 0.63);
+  /* color: white; */
   /* text-align: center; */
 }
 
@@ -18,7 +19,7 @@
   font-size: .9rem;
   margin-bottom: 3rem;
   letter-spacing: .5px;
-  color: #444;
+  /* color: #444; */
   line-height: 1.6;
 }
 
@@ -27,7 +28,7 @@
   /* font-weight: bold; */
   text-decoration: none;
   font-size: 1rem;
-  color: #252422;
+  /* color: #252422; */
   /* margin-bottom: 2rem; */
   border-bottom: 1px solid transparent;
   transition: border 0.3s ease;
