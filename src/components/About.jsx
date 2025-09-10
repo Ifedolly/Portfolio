@@ -7,11 +7,11 @@ const About = () => {
       <div className='about-container'>
         <div className="about-text">
           <h2>My Approach</h2>
+          <h3>"I learn by doing — trying, fixing, improving.</h3>
             <p>
-              I learn by doing — trying, breaking, fixing, and improving. 
               <br />
-              Every coding decision I make is intentional, leading an iterative path to better solutions.
-              <br />
+              {/* Every coding decision I make is intentional, leading an iterative path to better solutions. */}
+              {/* <br /> */}
               Since starting this year,
               I’ve completed 3 projects from scratch
               and spent countless hours sharpening my skills.

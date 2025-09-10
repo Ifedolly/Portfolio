@@ -8,18 +8,20 @@
 }
 
 .contact-title {
-  font-size: 1.7rem;
-  /* margin-bottom: 1rem; */
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
   /* font-weight: bold; */
   letter-spacing: 2px;
   /* text-transform: uppercase; */
 }
 
 .contact-message {
-  font-size: .9rem;
+  font-size: .8rem;
   margin-bottom: 3rem;
-  letter-spacing: .5px;
-  /* color: #444; */
+  /* letter-spacing: .5px; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 1px; */
+  color: #3f3e3e;
   line-height: 1.6;
 }
 
