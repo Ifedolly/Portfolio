@@ -24,7 +24,7 @@ export const projectsDetailsData = [
     name: "QuickGig",
     intro: "A last-minute gig marketplace for booking event-based services like DJs, MCs, and more.",
     oneLiner: "Book or offer last-minute gigs in minutes.",
-    mainImage: "/images/quickgig/main.jpg",
+    mainImage: "/images/quickgig/quickgig1.png",
     image2: "/images/quickgig/secondary1.jpg",
     image3: "/images/quickgig/secondary2.jpg",
     laptopView: "/images/quickgig/laptop.jpg",

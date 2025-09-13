@@ -11,7 +11,7 @@ const projects = [
     id: 2,
     name: "QuickGig",
     description: "JOB LISTING, WEB APPLICATION.",
-    image: "/images/projects-images/quickgig-long.png",
+    image: "/images/projects-images/quickgig-pic2.png",
     slug: "quickgig",
     // detailsLink: "/projects/quickgig",
   },
