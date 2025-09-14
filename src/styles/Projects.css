@@ -102,3 +102,16 @@
   user-select: none;
   transform: translateY(-2px);
 }
+
+.project-disabled {
+  /* opacity: 0.8; */
+  cursor: not-allowed;
+  pointer-events: none; 
+}
+
+.coming-soon {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #888;
+  /* margin-left: 2px; */
+}

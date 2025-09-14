@@ -9,21 +9,34 @@ const Projects = () => {
       <h2 className="projects-title">View My Work</h2>
 
       <div className="projects-grid">
-        {projects.map(({ id, name, image, description, slug }) => (
-          <NavLink to={`/projects/${slug}`} key={id} className="project-card">
-            <div className="project-image-container">
-              <img src={image} alt={name} className="project-image" />
-            </div>
-            <div className="project-info">
-              <h3>{name}</h3>
-              <div className="project-desc-row">
-                <p className="project-desc">{description}</p>
-                <span className="arrow">→</span>
+        {projects.map(({ id, name, image, description, slug, finished }) => (
+          finished ? (
+            <NavLink to={`/projects/${slug}`} key={id} className="project-card">
+              <div className="project-image-container">
+                <img src={image} alt={name} className="project-image" />
+              </div>
+              <div className="project-info">
+                <h3>{name}</h3>
+                <div className="project-desc-row">
+                  <p className="project-desc">{description}</p>
+                  <span className="arrow">→</span>
+                </div>
+              </div>
+            </NavLink>
+          ) : (
+            <div key={id} className="project-card project-disabled">
+              <div className="project-image-container">
+                <img src={image} alt={name} className="project-image" />
+              </div>
+              <div className="project-info">
+                <h3>{name} <span className="coming-soon">(Coming Soon)</span></h3>
+                <div className="project-desc-row">
+                  <p className="project-desc">{description}</p>
+                </div>
               </div>
             </div>
-          </NavLink>
+          )
         ))}
-
       </div>
     </section>
   );
