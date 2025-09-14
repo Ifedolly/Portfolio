@@ -34,7 +34,7 @@ export const projectsDetailsData = [
     solution: "I built a posting and browsing system that updates dynamically using local state and filters. This kept the experience seamless and responsive.",
     tools: ["React", "React Router", "Tailwind CSS"],
     futureUpdates: "I'll be adding account creation, direct messaging, and payment integration.",
-    liveLink: "https://quickgig.netlify.app"
+    liveLink: "https://quickgig-one.vercel.app/"
   },
 
   {
