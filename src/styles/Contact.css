@@ -1,39 +1,51 @@
 .contact {
+  position: relative;
   padding: 3rem 2rem 2rem;
-  /* background-color: hsl(35, 35%, 89%); */
-  /* background-color: hsl(0, 88%, 10%); */
-  background-color: hsla(47, 18%, 75%, 0.63);
-  /* color: white; */
-  /* text-align: center; */
+  background-image: url('/images/projects-images/pc1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; /* adjust height as needed */
+  text-align: center;
+  overflow: hidden; /* ensures overlay stays within section */
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 102, 102, 0.274); 
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2; 
 }
 
 .contact-title {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   margin-bottom: 1rem;
-  /* font-weight: bold; */
   letter-spacing: 2px;
-  /* text-transform: uppercase; */
+  text-shadow: 2px 2px 4px rgba(43, 41, 41, 0.534);
 }
 
 .contact-message {
-  font-size: .8rem;
+  font-size: 1.1rem;
   margin-bottom: 3rem;
-  /* letter-spacing: .5px; */
-  /* text-transform: uppercase; */
-  /* letter-spacing: 1px; */
   color: #3f3e3e;
   line-height: 1.6;
+  text-shadow: 2px 2px 4px rgba(43, 41, 41, 0.534);
 }
 
-.email-link {
-  display: block;
-  /* font-weight: bold; */
-  text-decoration: none;
-  font-size: 1rem;
-  /* color: #252422; */
-  /* margin-bottom: 2rem; */
-  border-bottom: 1px solid transparent;
-  transition: border 0.3s ease;
+.highlight-word {
+  font-family: 'Great Vibes', Courier, monospace;
+  font-size: 3rem;
+  /* font-weight: bold;  */
+  /* color: #000;  */
 }
 
 .social-links {
@@ -41,23 +53,21 @@
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(43, 41, 41, 0.534);
 }
 
 .social-links a {
   color: #252422;
   text-decoration: none;
   font-weight: 500;
-  /* font-size: ; */
   text-transform: uppercase;
-  transition: border-bottom 0.3s ease;
   border-bottom: 1px solid transparent;
-  
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(43, 41, 41, 0.534);
 }
 
 .social-links a:hover {
-  /* border-bottom: 1px solid #252422; */
-  /* color: #d3d2d2; */
   color: white;
 }
