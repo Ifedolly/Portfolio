@@ -12,8 +12,8 @@ const About = () => {
               <br />
               {/* Every coding decision I make is intentional, leading an iterative path to better solutions. */}
               {/* <br /> */}
-              Since starting this year,
-              I’ve completed 3 projects from scratch
+              Since starting last year,
+              I’ve completed over 5 projects from scratch
               and spent countless hours sharpening my skills.
               {/* <br /> */}
               {/* It’s been messy, humbling, and absolutely worth it. */}

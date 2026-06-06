@@ -16,26 +16,24 @@ const ContactModal = ({ isOpen, onClose }) => {
 
         {/* LEFT SIDE */}
         <div className="modal-left">
-          <img src={profileImg} alt="Profile" className="profile-img" />
+          {/* <img src={profileImg} alt="Profile" className="profile-img" /> */}
 
-          <h2>Let’s build something great</h2>
+          <h2>Got something in mind?</h2>
 
-          <p className="tagline">
+          {/* <p className="tagline">
             Frontend Developer focused on creating responsive, user-friendly web experiences.
-          </p>
+          </p> */}
 
           <div className="contact-links">
-            <a href="mailto:youremail@gmail.com">Email</a>
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="mailto:ifemidolapooo@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/ifedolapo-olawale" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Ifedolly" target="_blank">Github</a>
             <a href="https://tiktok.com" target="_blank">TikTok</a>
           </div>
         </div>
 
         {/* RIGHT SIDE */}
         <div className="modal-right">
-          <h3>Send a message</h3>
-
           <form
             action="https://api.web3forms.com/submit"
             method="POST"
@@ -64,7 +62,7 @@ const ContactModal = ({ isOpen, onClose }) => {
               required
             ></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">SEND MESSAGE <span className="arrow">→</span></button>
           </form>
         </div>
 
