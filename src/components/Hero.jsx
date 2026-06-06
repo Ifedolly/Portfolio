@@ -3,7 +3,7 @@ import "../styles/Hero.css";
 import { motion } from "framer-motion";
 
 
-const Hero = () => {
+const Hero = ( { openContact } ) => {
   return (
     <section className="hero">
       <div className="hero-container">
@@ -16,9 +16,9 @@ const Hero = () => {
               Building applications that effectively convey your brand’s message and encourage visitors to engage — that’s my thing.<br/> 
               I focus on creating intuitive, user-friendly experiences that look great and foster meaningful connections with your audience.
             </p>
-            <a href="#contact" className="cta-link">
+            <button className="cta-link" onClick={openContact}>
               WORK WITH ME <span className="arrow">→</span>
-            </a>
+            </button>
         </div>
         {/* Right: Image */}
         <div className="hero-image">

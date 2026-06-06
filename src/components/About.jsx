@@ -26,7 +26,7 @@ const About = () => {
               and brings it to life with clarity and creativity.
             </p>
           <a
-            href="/ifedolapo-cv.pdf"
+            href="/Ifedolapo-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="about-cta"

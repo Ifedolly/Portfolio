@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 
-const Header = () => {
+const Header = ({ openContact }) => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
 
@@ -44,7 +44,12 @@ const Header = () => {
       <nav className="navbar">
         <NavLink to="/#projects" className="nav-link">Projects</NavLink>
         <NavLink to="/#about" className="nav-link">About</NavLink>
-        <NavLink to="/#contact" className="nav-link">Contact</NavLink>
+        <button
+          className="nav-link contact-btn"
+          onClick={openContact}
+        >
+          Contact
+        </button>
       </nav>
 
       {/* Bottom Line */}
